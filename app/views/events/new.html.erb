@@ -1,0 +1,11 @@
+<body data-turbo="false">
+  <main class="container d-flex justify-content-center align-items-center">
+    <div class="col-sm-4"> 
+    <h2 class="display-6 fw-bold font-family-asgardxbold text-center my-5">NEW EVENT</h2> 
+    
+<%= render "form", event: @event %>
+<br>
+
+<div>
+  <%= link_to "Back to events", events_path %>
+</div>
